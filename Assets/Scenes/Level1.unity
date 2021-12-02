@@ -169,7 +169,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569367292 stripped
 GameObject:
@@ -280,7 +280,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &723145809
 PrefabInstance:
@@ -753,13 +753,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1898963812, guid: 4752144701b424a4da38ebd57eb43ee7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6458292265821958770, guid: 4752144701b424a4da38ebd57eb43ee7, type: 3}
       propertyPath: m_Name
       value: Landpad
       objectReference: {fileID: 0}
     - target: {fileID: 6458292265822449234, guid: 4752144701b424a4da38ebd57eb43ee7, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6458292265822449234, guid: 4752144701b424a4da38ebd57eb43ee7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -803,6 +807,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4752144701b424a4da38ebd57eb43ee7, type: 3}
+--- !u!1 &1428737119167420954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6458292265821958770, guid: 4752144701b424a4da38ebd57eb43ee7, type: 3}
+  m_PrefabInstance: {fileID: 1428737119167420953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1428737119167420955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428737119167420954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e378048327d91bd4b8b5dcd675267853, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLevelToLoad: Lvl2
+  Player: {fileID: 0}
 --- !u!1001 &1571094072877446910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -862,6 +885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
+    - target: {fileID: 5208576926517808084, guid: 942597da443e55242ad1ac1e26532733, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7536923086326748188, guid: 942597da443e55242ad1ac1e26532733, type: 3}
       propertyPath: m_LocalScale.y
       value: 0.0758004
@@ -877,7 +904,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5364792445554931331, guid: c75ca0fd9dd52864ba9d8108196394d4, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5364792445554931331, guid: c75ca0fd9dd52864ba9d8108196394d4, type: 3}
       propertyPath: m_LocalPosition.x
